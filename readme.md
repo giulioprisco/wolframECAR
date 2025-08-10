@@ -34,19 +34,19 @@ I had previously written a Java version of this program but I decided to restart
 
 ## Examples
 
-![Run 1] (/assets/images/run1.png)
+### run1.png
 
 Run 1: reversible ECA 37R running in the forward direction on a grid 2400 cells wide, starting with the row specified in the code and running for 1799 steps so that the final image is 2400 x 1800 pixels.
 
-![Run 2] (/assets/images/run2.png)
+### run2.png
 
 Run 2: backward run after Run 1, with the initial state loaded from `cells.txt`. If you flip Figure 2 vertically it is identical to Figure 1.
 
-![Run 3] (/assets/images/run3.png)
+### run3.png
 
 Run 3: Run 1 for 899 steps; Edit `cells.txt` to flip (add) cell 865; Run backward to the beginning with the initial state loaded from `cells.txt`. Run backward again (twice backward is forward) for 1799 steps. Compare to Run 1. Note how the cell flip propagates gradually in both directions.
 
-![Run 4] (/assets/images/run4.png)
+### run4.png
 
 Run 4: Run 1 for 899 steps; Edit `cells.txt` to flip (remove) cell 873; Run backward to the beginning with the initial state loaded from `cells.txt`. Run backward again (twice backward is forward) for 1799 steps. Compare to Run 1. Note how the cell flip propagates gradually in both directions.
 
