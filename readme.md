@@ -68,7 +68,7 @@ This little program is not our universe. But according to Wolfram’s principle 
 
 If Rule 37R is universal and consciousness is computable, a big version of this program, starting with a certain inconceivably huge but finite string of initial bits, would eventually result in a complex universe inhabited by conscious beings.
 
-Let’s think of those conscious beings. They are huge strings of bits (since their entire universe is a huger string of bits, they can’t be anything else). Imagine two 37R beings as huge and ultra-complex versions of the two main trunks in the pictures above. These two 37R beings interact by exchanging gliders.
+Let’s think of those conscious beings. They are huge strings of bits (since their entire universe is a huger string of bits, they can’t be anything else). Imagine two 37R beings as huge and ultra-complex versions of the two main trunks in the pictures Run1...4. These two 37R beings interact by exchanging gliders.
 
 In the pictures above, one-dimensional space runs horizontally and time runs vertically.
 
