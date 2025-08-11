@@ -34,9 +34,11 @@ I had previously written a Java version of this program but I decided to restart
 
 ## Examples
 
+Images included in this repository (the one-dimensional space of cells runs horizontally and time runs vertically):
+
 ### run1.png
 
-Run 1: reversible ECA 37R running in the forward direction on a grid 2400 cells wide, starting with the row specified in the code and running for 1799 steps so that the final image is 2400 x 1800 pixels.
+Run 1: reversible ECA 37R running in the forward direction on a grid 2400 cells wide, starting with the initial state hardcoded in the program and running for 1799 steps so that the final image is 2400 x 1800 pixels.
 
 ### run2.png
 
@@ -44,11 +46,11 @@ Run 2: backward run after Run 1, with the initial state loaded from `cells.txt`.
 
 ### run3.png
 
-Run 3: Run 1 for 899 steps; Edit `cells.txt` to flip (add) cell 865; Run backward to the beginning with the initial state loaded from `cells.txt`. Run backward again (twice backward is forward) for 1799 steps. Compare to Run 1. Note how the cell flip propagates gradually in both directions.
+Run 3: Run 1 for 899 steps; Edit `cells.txt` to flip (add) cell 865; Run backward to the beginning with the initial state loaded from `cells.txt`. Run backward again (twice backward is forward) for 1799 steps with the initial state loaded from `cells.txt`.. Compare to Run 1. Note how the cell flip propagates gradually in both directions.
 
 ### run4.png
 
-Run 4: Run 1 for 899 steps; Edit `cells.txt` to flip (remove) cell 873; Run backward to the beginning with the initial state loaded from `cells.txt`. Run backward again (twice backward is forward) for 1799 steps. Compare to Run 1. Note how the cell flip propagates gradually in both directions.
+Run 4: Run 1 for 899 steps; Edit `cells.txt` to flip (remove) cell 873; Run backward to the beginning with the initial state loaded from `cells.txt`. Run backward again (twice backward is forward) for 1799 steps with the initial state loaded from `cells.txt`.. Compare to Run 1. Note how the cell flip propagates gradually in both directions.
 
 ## Metaphysical musings
 
@@ -64,21 +66,16 @@ I have these pictures in mind when I think about free will as outlined in my boo
 > 
 > You may be thinking that this sounds very weird because it seems to imply that, by acting with free will now, you not only determine the future but also change the past. In fact, playing with Rule 37R in my little CA program, I find it fascinating to watch how changes in the present gradually propagate toward both the future and the past. I start my deterministic and reversible Rule 37R CA program with some initial conditions at time zero, and let the program run for a while. Then I stop the program, choose a set of bits to represent me, and flip one of those bits to represent my free will. Then I run the program in the reverse time direction until reaching time zero: the initial conditions have changed to be compatible with my free choice at a later time.
 
-This little program is not our universe. But according to Wolfram’s principle of computational equivalence ([NKS](https://www.wolframscience.com/nks/), Chapter 12) - all sufficiently powerful computing systems are equivalent to each other in the sense that they can emulate each other - running this little program with a certain (huge) initial string of bits would eventually encode (likely in a very scrambled holographic format that mixes times and places) all that happened or will happen in our universe, including the fact that you are reading this page now.
+This little program is not our universe. But according to Wolfram’s principle of computational equivalence ([NKS](https://www.wolframscience.com/nks/), Chapter 12) - all sufficiently powerful computing systems are equivalent to each other in the sense that they can emulate each other - running this little program with a certain (huge) initial string of bits (cells) would eventually encode (likely in a very scrambled holographic format that mixes times and places) all that happened or will happen in our universe, including the fact that you are reading this page now.
 
 If Rule 37R is universal and consciousness is computable, a big version of this program, starting with a certain inconceivably huge but finite string of initial bits, would eventually result in a complex universe inhabited by conscious beings.
 
-Let’s think of those conscious beings. They are huge strings of bits (since their entire universe is a huger string of bits, they can’t be anything else). Imagine two 37R beings as huge and ultra-complex versions of the two main trunks in the pictures Run1...4. These two 37R beings interact by exchanging gliders.
-
-In the pictures above, one-dimensional space runs horizontally and time runs vertically.
+Let’s think of those conscious beings. They are huge strings of bits (since their entire universe is a huger string of bits, they can’t be anything else). Imagine two 37R beings as huge and ultra-complex versions of the two main trunks in the images above. These two 37R beings interact by exchanging gliders.
 
 Suppose the left trunk encodes me. I'm a conscious being endowed with free will. In Runs 3 and 4, I make a free choice.
 
-The effects of this choice “take time,” so to speak, to propagate toward the future and the past. The bit flip in the left trunk doesn’t affect the right trunk until a certain time difference in the past or in the future. In fact, the change in the left trunk is propagating to the right trunk only near the top and the bottom of Runs 3 and 4.
+The effects of this choice “take time,” so to speak, to propagate toward the future and the past. The bit flip in the left trunk doesn’t affect the right trunk until a certain time difference in the past or in the future. In fact, you can see that the change in the left trunk is propagating to the right trunk only near the top and the bottom of Runs 3 and 4.
 
-Interestingly, my choice here and now doesn't change the rest of the world at this time. But change gradually propagates toward both the future and the past.
-
-
-A bit flip takes a (very) long time, forward and backward, to propagate to (very) far regions in space.
+Interestingly, my choice here and now changes me but doesn't change the rest of the world at this time. Change gradually propagates toward both the future and the past.
 
 Of course my words can only be imprecise, because human languages presuppose our usual conception of time. I could as well say that, given the bit flip, the new past has always been the real past.
