@@ -30,7 +30,7 @@ where XOR denotes the exclusive or operation, and _a_<sub>t-1</sub> is the state
 
 ## Development
 
-I had previously written a Java version of this program but I decided to restart from scratch in MATLAB with AI assistance from [Grok] (https://x.com/i/grok). Grok 4 did a great job and always interpreted my prompts correctly despite possible ambiguities. Of course I checked the results against those of my previous code. This has been my first experiment with vibe coding and I'm quite pleased.
+I had previously written a Java version of this program but I decided to restart from scratch in MATLAB with AI assistance from Grok. Grok 4 did a great job and always interpreted my prompts correctly despite possible ambiguities. Of course I checked the results against those of my previous code. This has been my first experiment with vibe coding and I'm quite pleased.
 
 ## Examples
 
