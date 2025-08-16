@@ -79,3 +79,11 @@ The effects of this choice “take time,” so to speak, to propagate toward the
 Interestingly, my choice here and now changes me but doesn't change the rest of the world at this time. Change gradually propagates toward both the future and the past.
 
 Of course my words can only be imprecise, because human languages presuppose our usual conception of time. I could as well say that, given the bit flip, the new past has always been the real past.
+
+If a cell is indeterminate at a certain time (e.g. cell 865 or cell 873 at time = 900), there are two possible histories (e.g. Run 1 and Run 3, or Run1 and Run 4). One of the two possible histories can be selected by a choice, not only at that time but also at other times in the past or in the future.
+
+If all cells are indeterminate there are many possible histories. The number of possible stories grows exponentially with the number of cells. For 4 cells, the 16 possible histories are in the image 37R-4-all.png. One unique history can be selected by a set of choices distributed in time. That is, the choices that determine the unique history can be made at different moments in time.
+
+This is equivalent to Emily Adlam's Sudoku analogy outlined in my book [*Irrational mechanics*](https://www.turingchurch.com/p/irrational-mechanics).
+
+So this little program describes a universe where the laws of physics are deterministic and reversible, but indeterminacy allows for explicit retrocausality.
