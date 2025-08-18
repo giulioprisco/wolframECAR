@@ -80,7 +80,7 @@ Interestingly, my choice here and now changes me but doesn't change the rest of 
 
 Of course my words can only be imprecise, because human languages presuppose our usual conception of time. I could as well say that, given the bit flip, the new past has always been the real past.
 
-If a cell is indeterminate at a certain time (e.g. cell 865 or cell 873 at time = 900), there are two possible histories (e.g. Run 1 and Run 3, or Run1 and Run 4). One of the two possible histories can be selected by a global choice beyond time (downward causation).
+If a cell is indeterminate at a certain time (e.g. cell 865 or cell 873 at time = 900), there are two possible histories (Run 1 and Run 3, or Run1 and Run 4). One of the two possible histories can be selected by a global choice beyond time (downward causation).
 
 If all cells are indeterminate there are many possible histories. The number of possible histories grows exponentially with the number of cells. For 4 cells, the 16 possible histories are in the image 37R-4-all.png. One unique history can be selected by a set of choices distributed in time. That is, one unique history can be selected by choosing the values of some cells until all columns but one are eliminated. The choices that determine the unique history (column) can be made at different moments in time (rows).
 
